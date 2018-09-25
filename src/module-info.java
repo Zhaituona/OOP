@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author elzat
+ *
+ */
+module basicjava {
+}
