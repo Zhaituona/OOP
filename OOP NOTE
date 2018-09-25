@@ -1,0 +1,54 @@
+09/25/2018
+ 
+OOP
+
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
+first interface 
+interface look like [Acess specifier][interface][interface name]{
+//open interface body
+can only do declare methods, not able to do impelment methods.
+
+}//close interface body
+
+we can using concert class to implement interfaces , we can implement multipule interfaces in to the one concert class.
+under that concert class we can implement thoes methods, using for the testclass.
+
+Abstraction 
+[access specifier][abstract][class name](){
+
+we can do declare abstract method also implement not abstract method.
+}
+concert class can extends abstarct class and impelemt interfacec, we can extends abstarct class for impelemnt abstarct methods.
+
+Encapsulation 
+
+when we ceate a class declare some variable are private , then we are not able to access from outside the class , then we go to generetic get setting and getting , 
+then we can able to use thouse variable , then it will becoimg to public primative method can have return type , an other is void type , but both of the methods we can use.
+
+
+Inheritance 
+Single inheritance 
+Multi level inheritance 
+Hierarehical inheritance
+ClassB extands ClassA single 
+ClassA extends ClassC, ClassB extends ClassA . this is multi level .
+ClassD extends ClassC , ClassE extends ClassC , ClassF extends ClassC, Hierarehical 
+
+Super class ClassC .
+
+Polymorphism 
+
+method overriding run time 
+method overloading compile time 
+
+method overloading  this is happend on the compile time , under the class declare and insilizie some method , but thouse methods have same name , but different parameters , maybe like this 
+public int areaOfLand (int a , int b)  public int areOfLand(int a , int b , int c) public String areaOfLand(int a , String b)
+this is method overloading 
+
+method overriding run time 
+ do some changes under the new class . we create new class , extends old class , copy old class method , do some change under the method.
+
